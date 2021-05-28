@@ -1,0 +1,505 @@
+2021-02-28 18:06:34,007 ERROR 18816 [-/::1/-/39ms GET /authorinfo?pid=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT user.username,user.userimg,user.sign,p.createtime FROM user JOIN paper AS p WHERE user.uid=p.uid AND p.pid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT user.username,user.userimg,user.sign,p.createtime FROM user JOIN paper AS p WHERE user.uid=p.uid AND p.pid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 18816
+hostname: DESKTOP-K97SJIB
+
+2021-02-28 18:06:34,027 ERROR 18816 [-/::1/-/57ms GET /papertitle?paperid=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT ptitle,pcontent,clickpaper FROM paper WHERE pid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT ptitle,pcontent,clickpaper FROM paper WHERE pid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 18816
+hostname: DESKTOP-K97SJIB
+
+2021-02-28 18:06:34,035 ERROR 18816 [-/::1/-/61ms GET /commentarea?commentid=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT user.username,user.userimg,p.createtime,p.content FROM user JOIN pinglun AS p  WHERE user.uid=p.uid  and  p.pid=undefined ORDER BY p.createtime DESC
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT user.username,user.userimg,p.createtime,p.content FROM user JOIN pinglun AS p  WHERE user.uid=p.uid  and  p.pid=undefined ORDER BY p.createtime DESC"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 18816
+hostname: DESKTOP-K97SJIB
+
+2021-02-28 18:06:34,040 ERROR 18816 [-/::1/-/17ms GET /commentcount?pid=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT COUNT(*) AS c FROM pinglun WHERE pid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT COUNT(*) AS c FROM pinglun WHERE pid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 18816
+hostname: DESKTOP-K97SJIB
+
+2021-02-28 18:06:34,049 ERROR 18816 [-/::1/-/4ms POST /clickadd] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: update paper set clickpaper=clickpaper+1 where pid=undefined 
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "update paper set clickpaper=clickpaper+1 where pid=undefined "
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 18816
+hostname: DESKTOP-K97SJIB
+
+2021-02-28 18:06:38,294 ERROR 18816 [-/::1/-/1ms GET /authorinfo?pid=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT user.username,user.userimg,user.sign,p.createtime FROM user JOIN paper AS p WHERE user.uid=p.uid AND p.pid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT user.username,user.userimg,user.sign,p.createtime FROM user JOIN paper AS p WHERE user.uid=p.uid AND p.pid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 18816
+hostname: DESKTOP-K97SJIB
+
+2021-02-28 18:06:38,306 ERROR 18816 [-/::1/-/9ms GET /papertitle?paperid=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT ptitle,pcontent,clickpaper FROM paper WHERE pid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT ptitle,pcontent,clickpaper FROM paper WHERE pid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 18816
+hostname: DESKTOP-K97SJIB
+
+2021-02-28 18:06:38,313 ERROR 18816 [-/::1/-/11ms GET /commentarea?commentid=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT user.username,user.userimg,p.createtime,p.content FROM user JOIN pinglun AS p  WHERE user.uid=p.uid  and  p.pid=undefined ORDER BY p.createtime DESC
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT user.username,user.userimg,p.createtime,p.content FROM user JOIN pinglun AS p  WHERE user.uid=p.uid  and  p.pid=undefined ORDER BY p.createtime DESC"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 18816
+hostname: DESKTOP-K97SJIB
+
+2021-02-28 18:06:38,339 ERROR 18816 [-/::1/-/23ms GET /commentcount?pid=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT COUNT(*) AS c FROM pinglun WHERE pid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT COUNT(*) AS c FROM pinglun WHERE pid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 18816
+hostname: DESKTOP-K97SJIB
+
+2021-02-28 18:07:00,669 ERROR 18816 [-/::1/-/3ms GET /authorinfo?pid=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT user.username,user.userimg,user.sign,p.createtime FROM user JOIN paper AS p WHERE user.uid=p.uid AND p.pid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT user.username,user.userimg,user.sign,p.createtime FROM user JOIN paper AS p WHERE user.uid=p.uid AND p.pid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 18816
+hostname: DESKTOP-K97SJIB
+
+2021-02-28 18:07:00,692 ERROR 18816 [-/::1/-/14ms GET /papertitle?paperid=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT ptitle,pcontent,clickpaper FROM paper WHERE pid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT ptitle,pcontent,clickpaper FROM paper WHERE pid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 18816
+hostname: DESKTOP-K97SJIB
+
+2021-02-28 18:07:00,706 ERROR 18816 [-/::1/-/21ms GET /commentarea?commentid=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT user.username,user.userimg,p.createtime,p.content FROM user JOIN pinglun AS p  WHERE user.uid=p.uid  and  p.pid=undefined ORDER BY p.createtime DESC
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT user.username,user.userimg,p.createtime,p.content FROM user JOIN pinglun AS p  WHERE user.uid=p.uid  and  p.pid=undefined ORDER BY p.createtime DESC"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 18816
+hostname: DESKTOP-K97SJIB
+
+2021-02-28 18:07:00,710 ERROR 18816 [-/::1/-/10ms GET /commentcount?pid=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\DELL\Desktop\code1024\vueproject\service\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT COUNT(*) AS c FROM pinglun WHERE pid=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT COUNT(*) AS c FROM pinglun WHERE pid=undefined"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 18816
+hostname: DESKTOP-K97SJIB
+
+2021-05-28 12:07:55,083 ERROR 15932 [-/::1/-/23ms POST /publishimg] nodejs.EXDEVError: EXDEV: cross-device link not permitted, rename 'C:\Users\ASUS2\AppData\Local\Temp\egg-multipart-tmp\server\2021\05\28\12\f24b2b25-3617-4b77-b5e8-2053d9d74d1e.jpg' -> 'F:\A_vuetest\vueproject\service\app\public\publishimg\f24b2b25-3617-4b77-b5e8-2053d9d74d1e.jpg'
+    at Object.renameSync (fs.js:772:3)
+    at PublishController.imgurl (F:\A_vuetest\vueproject\service\app\controller\publish.js:17:17)
+    at Object.callFn (F:\A_vuetest\vueproject\service\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\A_vuetest\vueproject\service\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\A_vuetest\vueproject\service\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\A_vuetest\vueproject\service\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\A_vuetest\vueproject\service\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\A_vuetest\vueproject\service\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\A_vuetest\vueproject\service\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\A_vuetest\vueproject\service\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+errno: -4037
+syscall: "rename"
+code: "EXDEV"
+path: "C:\\Users\\ASUS2\\AppData\\Local\\Temp\\egg-multipart-tmp\\server\\2021\\05\\28\\12\\f24b2b25-3617-4b77-b5e8-2053d9d74d1e.jpg"
+dest: "F:\\A_vuetest\\vueproject\\service\\app\\public\\publishimg\\f24b2b25-3617-4b77-b5e8-2053d9d74d1e.jpg"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "EXDEVError"
+pid: 15932
+hostname: DESKTOP-0JE9QBE
+
+2021-05-28 12:08:01,427 ERROR 15932 [-/::1/-/2ms POST /publishimg] nodejs.EXDEVError: EXDEV: cross-device link not permitted, rename 'C:\Users\ASUS2\AppData\Local\Temp\egg-multipart-tmp\server\2021\05\28\12\5adbbb29-f98e-401e-9fbf-0b89b2ab2bc3.jpg' -> 'F:\A_vuetest\vueproject\service\app\public\publishimg\5adbbb29-f98e-401e-9fbf-0b89b2ab2bc3.jpg'
+    at Object.renameSync (fs.js:772:3)
+    at PublishController.imgurl (F:\A_vuetest\vueproject\service\app\controller\publish.js:17:17)
+    at Object.callFn (F:\A_vuetest\vueproject\service\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\A_vuetest\vueproject\service\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\A_vuetest\vueproject\service\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\A_vuetest\vueproject\service\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\A_vuetest\vueproject\service\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\A_vuetest\vueproject\service\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\A_vuetest\vueproject\service\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\A_vuetest\vueproject\service\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+errno: -4037
+syscall: "rename"
+code: "EXDEV"
+path: "C:\\Users\\ASUS2\\AppData\\Local\\Temp\\egg-multipart-tmp\\server\\2021\\05\\28\\12\\5adbbb29-f98e-401e-9fbf-0b89b2ab2bc3.jpg"
+dest: "F:\\A_vuetest\\vueproject\\service\\app\\public\\publishimg\\5adbbb29-f98e-401e-9fbf-0b89b2ab2bc3.jpg"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "EXDEVError"
+pid: 15932
+hostname: DESKTOP-0JE9QBE
+
+2021-05-28 12:12:32,889 ERROR 15932 [-/::1/-/5ms POST /publishimg] nodejs.EXDEVError: EXDEV: cross-device link not permitted, rename 'C:\Users\ASUS2\AppData\Local\Temp\egg-multipart-tmp\server\2021\05\28\12\92340c77-f433-4393-83f2-6dde8e1b2704.jpg' -> 'F:\A_vuetest\vueproject\service\app\public\publishimg\92340c77-f433-4393-83f2-6dde8e1b2704.jpg'
+    at Object.renameSync (fs.js:772:3)
+    at PublishController.imgurl (F:\A_vuetest\vueproject\service\app\controller\publish.js:17:17)
+    at Object.callFn (F:\A_vuetest\vueproject\service\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\A_vuetest\vueproject\service\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\A_vuetest\vueproject\service\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\A_vuetest\vueproject\service\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\A_vuetest\vueproject\service\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\A_vuetest\vueproject\service\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\A_vuetest\vueproject\service\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\A_vuetest\vueproject\service\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+errno: -4037
+syscall: "rename"
+code: "EXDEV"
+path: "C:\\Users\\ASUS2\\AppData\\Local\\Temp\\egg-multipart-tmp\\server\\2021\\05\\28\\12\\92340c77-f433-4393-83f2-6dde8e1b2704.jpg"
+dest: "F:\\A_vuetest\\vueproject\\service\\app\\public\\publishimg\\92340c77-f433-4393-83f2-6dde8e1b2704.jpg"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "EXDEVError"
+pid: 15932
+hostname: DESKTOP-0JE9QBE
+

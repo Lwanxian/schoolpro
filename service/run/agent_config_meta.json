@@ -1,0 +1,322 @@
+{
+  "session": {
+    "key": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+    "maxAge": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+    "httpOnly": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+    "encrypt": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+    "renew": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+    "logValue": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js"
+  },
+  "keys": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+  "middleware": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+      "port": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+      "hostname": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+    "allowMethods": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+    "credentials": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+      "port": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+      "user": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+      "password": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+      "database": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js"
+    },
+    "app": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+    "agent": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+    "default": {
+      "database": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js",
+      "connectionLimit": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+      "ignoreJSON": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+      "type": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "useSession": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "cookieName": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "sessionName": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "headerName": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "bodyName": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "queryName": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "refererWhiteList": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.local.js",
+      "maxAge": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "includeSubdomains": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "policy": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "checkAddress": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+    "fileSize": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+    "whitelist": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+    "autoFields": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fieldSize": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fields": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "files": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "tmpdir": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js"
+    }
+  },
+  "bodyParser": {
+    "jsonLimit": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+    "formLimit": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+    "enable": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "encoding": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "textLimit": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "strict": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "depth": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "parameterLimit": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+    },
+    "onerror": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+  },
+  "uploadDir": "F:\\A_vuetest\\vueproject\\service\\config\\config.default.js",
+  "helper": {
+    "shtml": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "templatePath": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "dirs": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "queryField": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieField": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieDomain": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js",
+      "development": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-schedule@3.6.6@egg-schedule\\config\\config.default.js",
+      "file": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-schedule@3.6.6@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-schedule@3.6.6@egg-schedule\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "ignoreDirs": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "fastReady": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "overrideDefault": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "overrideIgnore": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxDays": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dir": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dynamic": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "preload": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "buffer": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "maxFiles": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js",
+    "cache": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.local.js",
+    "defaultExtension": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js",
+    "defaultViewEngine": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js",
+    "mapping": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js"
+  },
+  "env": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+  "name": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+  "cookies": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+  "proxy": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+  "maxIpsCount": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+  "maxProxyCount": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+  "protocolHeaders": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+  "ipHeaders": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+  "hostHeaders": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+  "pkg": {
+    "name": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "version": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "description": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "private": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "egg": {
+      "declarations": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "@alicloud/pop-core": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "egg": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "egg-cors": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "egg-mysql": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "egg-scripts": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "md5": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "svg-captcha": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "autod-egg": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "egg-bin": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "egg-ci": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "egg-mock": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "eslint": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "eslint-config-egg": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "stop": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "dev": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "debug": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "test": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "test-local": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "cov": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "lint": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "ci": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "autod": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "url": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+    },
+    "author": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "license": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+  },
+  "baseDir": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+  "HOME": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+  "rundir": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "notFound": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "sitefile": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "middlewares": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "httpClient": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "encoding": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "env": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "level": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "consoleLevel": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "outputJSON": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "buffer": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "appLogName": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "coreLogName": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "agentLogName": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "errorLogName": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "freeSocketTimeout": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "maxSockets": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "freeSocketTimeout": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "maxSockets": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "logging": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+  "workerStartTimeout": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+  "serverTimeout": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js",
+    "responseTimeout": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+  },
+  "onClientError": "F:\\A_vuetest\\vueproject\\service\\node_modules\\_egg@2.29.3@egg\\config\\config.default.js"
+}

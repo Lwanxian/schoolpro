@@ -1,0 +1,160 @@
+2021-02-25 19:59:10,219 INFO 19856 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\DELL\\Desktop\\code1024\\vueproject\\service\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-25 19:59:10,254 INFO 19856 [egg-multipart] file mode enable
+2021-02-25 19:59:10,254 INFO 19856 [egg-multipart] will save temporary files to "C:\\Users\\DELL\\AppData\\Local\\Temp\\egg-multipart-tmp\\server", cleanup job cron: "0 30 4 * * *"
+2021-02-25 19:59:10,254 INFO 19856 [egg-mysql] connecting root@localhost:3306/c1024
+2021-02-25 19:59:10,650 INFO 19856 [egg-static] starting static serve /public/ -> C:\Users\DELL\Desktop\code1024\vueproject\service\app\public
+2021-02-25 19:59:10,654 INFO 19856 [egg-security] use methodnoallow middleware
+2021-02-25 19:59:10,655 INFO 19856 [egg-security] use noopen middleware
+2021-02-25 19:59:10,657 INFO 19856 [egg-security] use nosniff middleware
+2021-02-25 19:59:10,657 INFO 19856 [egg-security] use xssProtection middleware
+2021-02-25 19:59:10,658 INFO 19856 [egg-security] use xframe middleware
+2021-02-25 19:59:10,659 INFO 19856 [egg-security] use dta middleware
+2021-02-25 19:59:10,659 INFO 19856 [egg-security] compose 6 middlewares into one security middleware
+2021-02-25 19:59:10,675 INFO 19856 [egg:core] dump config after load, 7ms
+2021-02-25 19:59:10,696 INFO 19856 [egg-watcher:application] watcher start success
+2021-02-25 19:59:10,723 INFO 19856 [egg-mysql] instance[0] status OK, rds currentTime: Thu Feb 25 2021 19:59:10 GMT+0800 (GMT+08:00)
+2021-02-25 19:59:10,733 INFO 19856 [egg:core] dump config after ready, 8ms
+2021-02-26 19:09:48,580 INFO 6740 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\DELL\\Desktop\\code1024\\vueproject\\service\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-26 19:09:48,610 INFO 6740 [egg-multipart] file mode enable
+2021-02-26 19:09:48,610 INFO 6740 [egg-multipart] will save temporary files to "C:\\Users\\DELL\\AppData\\Local\\Temp\\egg-multipart-tmp\\server", cleanup job cron: "0 30 4 * * *"
+2021-02-26 19:09:48,611 INFO 6740 [egg-mysql] connecting root@localhost:3306/c1024
+2021-02-26 19:09:48,900 INFO 6740 [egg-static] starting static serve /public/ -> C:\Users\DELL\Desktop\code1024\vueproject\service\app\public
+2021-02-26 19:09:48,904 INFO 6740 [egg-security] use methodnoallow middleware
+2021-02-26 19:09:48,905 INFO 6740 [egg-security] use noopen middleware
+2021-02-26 19:09:48,907 INFO 6740 [egg-security] use nosniff middleware
+2021-02-26 19:09:48,908 INFO 6740 [egg-security] use xssProtection middleware
+2021-02-26 19:09:48,908 INFO 6740 [egg-security] use xframe middleware
+2021-02-26 19:09:48,909 INFO 6740 [egg-security] use dta middleware
+2021-02-26 19:09:48,909 INFO 6740 [egg-security] compose 6 middlewares into one security middleware
+2021-02-26 19:09:48,927 INFO 6740 [egg:core] dump config after load, 7ms
+2021-02-26 19:09:48,952 INFO 6740 [egg-watcher:application] watcher start success
+2021-02-26 19:10:50,805 INFO 5000 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\DELL\\Desktop\\code1024\\vueproject\\service\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-26 19:10:50,849 INFO 5000 [egg-multipart] file mode enable
+2021-02-26 19:10:50,849 INFO 5000 [egg-multipart] will save temporary files to "C:\\Users\\DELL\\AppData\\Local\\Temp\\egg-multipart-tmp\\server", cleanup job cron: "0 30 4 * * *"
+2021-02-26 19:10:50,849 INFO 5000 [egg-mysql] connecting root@localhost:3306/c1024
+2021-02-26 19:10:51,175 INFO 5000 [egg-static] starting static serve /public/ -> C:\Users\DELL\Desktop\code1024\vueproject\service\app\public
+2021-02-26 19:10:51,178 INFO 5000 [egg-security] use methodnoallow middleware
+2021-02-26 19:10:51,179 INFO 5000 [egg-security] use noopen middleware
+2021-02-26 19:10:51,180 INFO 5000 [egg-security] use nosniff middleware
+2021-02-26 19:10:51,181 INFO 5000 [egg-security] use xssProtection middleware
+2021-02-26 19:10:51,181 INFO 5000 [egg-security] use xframe middleware
+2021-02-26 19:10:51,182 INFO 5000 [egg-security] use dta middleware
+2021-02-26 19:10:51,182 INFO 5000 [egg-security] compose 6 middlewares into one security middleware
+2021-02-26 19:10:51,196 INFO 5000 [egg:core] dump config after load, 6ms
+2021-02-26 19:10:51,215 INFO 5000 [egg-watcher:application] watcher start success
+2021-02-26 19:10:51,222 INFO 5000 [egg-mysql] instance[0] status OK, rds currentTime: Fri Feb 26 2021 19:10:51 GMT+0800 (GMT+08:00)
+2021-02-26 19:10:51,228 INFO 5000 [egg:core] dump config after ready, 4ms
+2021-02-28 17:29:28,220 INFO 18816 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\DELL\\Desktop\\code1024\\vueproject\\service\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-28 17:29:28,251 INFO 18816 [egg-multipart] file mode enable
+2021-02-28 17:29:28,251 INFO 18816 [egg-multipart] will save temporary files to "C:\\Users\\DELL\\AppData\\Local\\Temp\\egg-multipart-tmp\\server", cleanup job cron: "0 30 4 * * *"
+2021-02-28 17:29:28,252 INFO 18816 [egg-mysql] connecting root@localhost:3306/c1024
+2021-02-28 17:29:28,762 INFO 18816 [egg-static] starting static serve /public/ -> C:\Users\DELL\Desktop\code1024\vueproject\service\app\public
+2021-02-28 17:29:28,765 INFO 18816 [egg-security] use methodnoallow middleware
+2021-02-28 17:29:28,766 INFO 18816 [egg-security] use noopen middleware
+2021-02-28 17:29:28,767 INFO 18816 [egg-security] use nosniff middleware
+2021-02-28 17:29:28,768 INFO 18816 [egg-security] use xssProtection middleware
+2021-02-28 17:29:28,769 INFO 18816 [egg-security] use xframe middleware
+2021-02-28 17:29:28,770 INFO 18816 [egg-security] use dta middleware
+2021-02-28 17:29:28,770 INFO 18816 [egg-security] compose 6 middlewares into one security middleware
+2021-02-28 17:29:28,788 INFO 18816 [egg:core] dump config after load, 7ms
+2021-02-28 17:29:28,809 INFO 18816 [egg-watcher:application] watcher start success
+2021-02-28 17:29:28,865 INFO 18816 [egg-mysql] instance[0] status OK, rds currentTime: Sun Feb 28 2021 17:29:28 GMT+0800 (GMT+08:00)
+2021-02-28 17:29:28,875 INFO 18816 [egg:core] dump config after ready, 8ms
+2021-04-07 17:30:53,645 INFO 5084 [egg:logger] init all loggers with options: {"dir":"F:\\A_vuetest\\vueproject\\service\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-07 17:30:53,668 INFO 5084 [egg-multipart] file mode enable
+2021-04-07 17:30:53,668 INFO 5084 [egg-multipart] will save temporary files to "C:\\Users\\ASUS2\\AppData\\Local\\Temp\\egg-multipart-tmp\\server", cleanup job cron: "0 30 4 * * *"
+2021-04-07 17:30:53,669 INFO 5084 [egg-mysql] connecting root@localhost:3306/c1024
+2021-04-07 17:30:53,793 INFO 5084 [egg-static] starting static serve /public/ -> F:\A_vuetest\vueproject\service\app\public
+2021-04-07 17:30:53,795 INFO 5084 [egg-security] use methodnoallow middleware
+2021-04-07 17:30:53,795 INFO 5084 [egg-security] use noopen middleware
+2021-04-07 17:30:53,796 INFO 5084 [egg-security] use nosniff middleware
+2021-04-07 17:30:53,796 INFO 5084 [egg-security] use xssProtection middleware
+2021-04-07 17:30:53,796 INFO 5084 [egg-security] use xframe middleware
+2021-04-07 17:30:53,797 INFO 5084 [egg-security] use dta middleware
+2021-04-07 17:30:53,797 INFO 5084 [egg-security] compose 6 middlewares into one security middleware
+2021-04-07 17:30:53,808 INFO 5084 [egg:core] dump config after load, 6ms
+2021-04-07 17:30:53,820 INFO 5084 [egg-watcher:application] watcher start success
+2021-04-07 17:30:53,822 INFO 5084 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 07 2021 17:30:53 GMT+0800 (中国标准时间)
+2021-04-07 17:30:53,827 INFO 5084 [egg:core] dump config after ready, 4ms
+2021-04-07 17:30:54,713 INFO 9844 [egg:logger] init all loggers with options: {"dir":"F:\\A_vuetest\\vueproject\\service\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-07 17:30:54,732 INFO 9844 [egg-multipart] file mode enable
+2021-04-07 17:30:54,732 INFO 9844 [egg-multipart] will save temporary files to "C:\\Users\\ASUS2\\AppData\\Local\\Temp\\egg-multipart-tmp\\server", cleanup job cron: "0 30 4 * * *"
+2021-04-07 17:30:54,732 INFO 9844 [egg-mysql] connecting root@localhost:3306/c1024
+2021-04-07 17:30:54,847 INFO 9844 [egg-static] starting static serve /public/ -> F:\A_vuetest\vueproject\service\app\public
+2021-04-07 17:30:54,849 INFO 9844 [egg-security] use methodnoallow middleware
+2021-04-07 17:30:54,849 INFO 9844 [egg-security] use noopen middleware
+2021-04-07 17:30:54,850 INFO 9844 [egg-security] use nosniff middleware
+2021-04-07 17:30:54,850 INFO 9844 [egg-security] use xssProtection middleware
+2021-04-07 17:30:54,851 INFO 9844 [egg-security] use xframe middleware
+2021-04-07 17:30:54,851 INFO 9844 [egg-security] use dta middleware
+2021-04-07 17:30:54,851 INFO 9844 [egg-security] compose 6 middlewares into one security middleware
+2021-04-07 17:30:54,862 INFO 9844 [egg:core] dump config after load, 7ms
+2021-04-07 17:30:54,873 INFO 9844 [egg-watcher:application] watcher start success
+2021-04-07 17:30:54,875 INFO 9844 [egg-mysql] instance[0] status OK, rds currentTime: Wed Apr 07 2021 17:30:54 GMT+0800 (中国标准时间)
+2021-04-07 17:30:54,880 INFO 9844 [egg:core] dump config after ready, 4ms
+2021-04-09 14:24:10,524 INFO 14360 [egg:logger] init all loggers with options: {"dir":"F:\\A_vuetest\\vueproject\\service\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-09 14:24:10,543 INFO 14360 [egg-multipart] file mode enable
+2021-04-09 14:24:10,543 INFO 14360 [egg-multipart] will save temporary files to "C:\\Users\\ASUS2\\AppData\\Local\\Temp\\egg-multipart-tmp\\server", cleanup job cron: "0 30 4 * * *"
+2021-04-09 14:24:10,544 INFO 14360 [egg-mysql] connecting root@localhost:3306/c1024
+2021-04-09 14:24:10,669 INFO 14360 [egg-static] starting static serve /public/ -> F:\A_vuetest\vueproject\service\app\public
+2021-04-09 14:24:10,671 INFO 14360 [egg-security] use methodnoallow middleware
+2021-04-09 14:24:10,672 INFO 14360 [egg-security] use noopen middleware
+2021-04-09 14:24:10,672 INFO 14360 [egg-security] use nosniff middleware
+2021-04-09 14:24:10,673 INFO 14360 [egg-security] use xssProtection middleware
+2021-04-09 14:24:10,673 INFO 14360 [egg-security] use xframe middleware
+2021-04-09 14:24:10,673 INFO 14360 [egg-security] use dta middleware
+2021-04-09 14:24:10,673 INFO 14360 [egg-security] compose 6 middlewares into one security middleware
+2021-04-09 14:24:10,684 INFO 14360 [egg:core] dump config after load, 6ms
+2021-04-09 14:24:10,696 INFO 14360 [egg-watcher:application] watcher start success
+2021-04-09 14:24:10,698 INFO 14360 [egg-mysql] instance[0] status OK, rds currentTime: Fri Apr 09 2021 14:24:10 GMT+0800 (中国标准时间)
+2021-04-09 14:24:10,703 INFO 14360 [egg:core] dump config after ready, 4ms
+2021-04-09 14:29:48,171 INFO 2792 [egg:logger] init all loggers with options: {"dir":"F:\\A_vuetest\\vueproject\\service\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-09 14:29:48,191 INFO 2792 [egg-multipart] file mode enable
+2021-04-09 14:29:48,191 INFO 2792 [egg-multipart] will save temporary files to "C:\\Users\\ASUS2\\AppData\\Local\\Temp\\egg-multipart-tmp\\server", cleanup job cron: "0 30 4 * * *"
+2021-04-09 14:29:48,191 INFO 2792 [egg-mysql] connecting root@localhost:3306/c1024
+2021-04-09 14:29:48,315 INFO 2792 [egg-static] starting static serve /public/ -> F:\A_vuetest\vueproject\service\app\public
+2021-04-09 14:29:48,317 INFO 2792 [egg-security] use methodnoallow middleware
+2021-04-09 14:29:48,317 INFO 2792 [egg-security] use noopen middleware
+2021-04-09 14:29:48,318 INFO 2792 [egg-security] use nosniff middleware
+2021-04-09 14:29:48,319 INFO 2792 [egg-security] use xssProtection middleware
+2021-04-09 14:29:48,319 INFO 2792 [egg-security] use xframe middleware
+2021-04-09 14:29:48,319 INFO 2792 [egg-security] use dta middleware
+2021-04-09 14:29:48,319 INFO 2792 [egg-security] compose 6 middlewares into one security middleware
+2021-04-09 14:29:48,330 INFO 2792 [egg:core] dump config after load, 6ms
+2021-04-09 14:29:48,342 INFO 2792 [egg-watcher:application] watcher start success
+2021-04-09 14:29:48,344 INFO 2792 [egg-mysql] instance[0] status OK, rds currentTime: Fri Apr 09 2021 14:29:48 GMT+0800 (中国标准时间)
+2021-04-09 14:29:48,349 INFO 2792 [egg:core] dump config after ready, 4ms
+2021-05-20 09:17:42,524 INFO 10812 [egg:logger] init all loggers with options: {"dir":"F:\\A_vuetest\\vueproject\\service\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-20 09:17:42,545 INFO 10812 [egg-multipart] file mode enable
+2021-05-20 09:17:42,545 INFO 10812 [egg-multipart] will save temporary files to "C:\\Users\\ASUS2\\AppData\\Local\\Temp\\egg-multipart-tmp\\server", cleanup job cron: "0 30 4 * * *"
+2021-05-20 09:17:42,546 INFO 10812 [egg-mysql] connecting root@localhost:3306/c1024
+2021-05-20 09:17:46,788 INFO 10812 [egg-static] starting static serve /public/ -> F:\A_vuetest\vueproject\service\app\public
+2021-05-20 09:17:46,795 INFO 10812 [egg-security] use methodnoallow middleware
+2021-05-20 09:17:46,800 INFO 10812 [egg-security] use noopen middleware
+2021-05-20 09:17:46,805 INFO 10812 [egg-security] use nosniff middleware
+2021-05-20 09:17:46,809 INFO 10812 [egg-security] use xssProtection middleware
+2021-05-20 09:17:46,814 INFO 10812 [egg-security] use xframe middleware
+2021-05-20 09:17:46,818 INFO 10812 [egg-security] use dta middleware
+2021-05-20 09:17:46,818 INFO 10812 [egg-security] compose 6 middlewares into one security middleware
+2021-05-20 09:17:46,876 INFO 10812 [egg:core] dump config after load, 53ms
+2021-05-20 09:17:46,980 INFO 10812 [egg-watcher:application] watcher start success
+2021-05-20 09:17:46,982 INFO 10812 [egg-mysql] instance[0] status OK, rds currentTime: Thu May 20 2021 09:17:46 GMT+0800 (中国标准时间)
+2021-05-20 09:17:46,987 INFO 10812 [egg:core] dump config after ready, 4ms
+2021-05-20 13:17:33,506 WARN 10812 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-20 13:17:33,510 WARN 10812 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-28 11:58:21,797 INFO 15932 [egg:logger] init all loggers with options: {"dir":"F:\\A_vuetest\\vueproject\\service\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-28 11:58:21,818 INFO 15932 [egg-multipart] file mode enable
+2021-05-28 11:58:21,818 INFO 15932 [egg-multipart] will save temporary files to "C:\\Users\\ASUS2\\AppData\\Local\\Temp\\egg-multipart-tmp\\server", cleanup job cron: "0 30 4 * * *"
+2021-05-28 11:58:21,819 INFO 15932 [egg-mysql] connecting root@localhost:3306/c1024
+2021-05-28 11:58:24,022 INFO 15932 [egg-static] starting static serve /public/ -> F:\A_vuetest\vueproject\service\app\public
+2021-05-28 11:58:24,030 INFO 15932 [egg-security] use methodnoallow middleware
+2021-05-28 11:58:24,035 INFO 15932 [egg-security] use noopen middleware
+2021-05-28 11:58:24,041 INFO 15932 [egg-security] use nosniff middleware
+2021-05-28 11:58:24,046 INFO 15932 [egg-security] use xssProtection middleware
+2021-05-28 11:58:24,051 INFO 15932 [egg-security] use xframe middleware
+2021-05-28 11:58:24,056 INFO 15932 [egg-security] use dta middleware
+2021-05-28 11:58:24,056 INFO 15932 [egg-security] compose 6 middlewares into one security middleware
+2021-05-28 11:58:24,067 INFO 15932 [egg:core] dump config after load, 6ms
+2021-05-28 11:58:24,081 INFO 15932 [egg-watcher:application] watcher start success
+2021-05-28 11:58:24,082 INFO 15932 [egg-mysql] instance[0] status OK, rds currentTime: Fri May 28 2021 11:58:24 GMT+0800 (中国标准时间)
+2021-05-28 11:58:24,087 INFO 15932 [egg:core] dump config after ready, 4ms
